@@ -1,10 +1,13 @@
 {
+  "homepage": "https://Vlnduwfsfrekves.github.io/dfgh",
   "name": "dfgh",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "deploy":"gh-pages -d build",
+    "predeploy":"npm run deploy",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
